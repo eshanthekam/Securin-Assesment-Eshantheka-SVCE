@@ -8,7 +8,7 @@ const cveDescriptionSchema = new mongoose.Schema({
 const cvssDataSchema = new mongoose.Schema({
     version: String,
     vectorString: String,
-    accessVector: String,
+    accessVector: String, 
     accessComplexity: String,
     authentication: String,
     confidentialityImpact: String,
