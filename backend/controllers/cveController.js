@@ -108,7 +108,7 @@ const getCVE = asyncHandler(async(req,res)=>{
         res.status(400)
         throw new Error('error in fetching cve');
     }
-    res.status(200).json(cveItem)
+    res.status(200).json(cveItem) 
 })
 
 module.exports = {
