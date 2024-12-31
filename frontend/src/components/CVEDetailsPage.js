@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function CVEDetailsPage() {
 	
-	const params = useParams()
+	const params = useParams() 
 	const [data,setData]  = useState(null);
 	let id = params.cveId;
 
