@@ -6,7 +6,7 @@ function CVEList() {
 	const [data, setData] = useState([]);
 	const [currentPage, setCurrentPage] = useState(1);
 	const [limit, setLimit] = useState(20);
-
+ 
 	const navigate = useNavigate();
 
 	useEffect(()=>{
