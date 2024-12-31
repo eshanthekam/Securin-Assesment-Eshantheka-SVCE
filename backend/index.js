@@ -5,7 +5,7 @@ dotenv.config();
 
 const cors = require('cors')
 const cron = require('node-cron');
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5000 
 
 const {errorHandler} = require('./middlewares/errorMiddleware')
 const connectDB = require('./config/dbconfig');
