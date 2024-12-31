@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import CVEList from './components/CVEList';
+import CVEList from './components/CVEList'; 
 import CVEDetailsPage from './components/CVEDetailsPage';
 
 function App() {
